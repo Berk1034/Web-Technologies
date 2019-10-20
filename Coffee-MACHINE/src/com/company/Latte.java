@@ -14,4 +14,9 @@ public class Latte extends Cappuccino{
     public void setWhippedCreamVolume(int whippedCreamVolume) {
         WhippedCreamVolume = whippedCreamVolume;
     }
+
+    @Override
+    public String toString(){
+        return "\nLatte{" + "sugar='" + isSugar() + '\'' + ", watertemperature='" + getWaterTemperature() + '\'' + ", coffeeamount='" + getCoffeeAmount() + '\'' + ", watervolume='" + getWaterVolume() + '\'' + ", whippedcreamvolume='" + WhippedCreamVolume + '\'' + "}";
+    }
 }

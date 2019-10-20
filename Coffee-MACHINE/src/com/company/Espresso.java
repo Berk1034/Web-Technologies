@@ -1,10 +1,12 @@
 package com.company;
 
-public class Espresso {
+import java.io.Serializable;
+
+public class Espresso{
     private boolean Sugar;
     private int WaterTemperature;
-    private int CoffeeAmount;
     private int WaterVolume;
+    private int CoffeeAmount;
 
     public Espresso(){
         Sugar = false;
@@ -45,5 +47,12 @@ public class Espresso {
         Sugar = sugar;
     }
 
+    public void SetCoffeeSettings(Espresso CoffeeType){
 
+    }
+
+    @Override
+    public String toString(){
+        return "\nEspresso{" + "sugar='" + Sugar + '\'' + ", watertemperature='" + WaterTemperature + '\'' + ", coffeeamount='" + CoffeeAmount + '\'' + ", watervolume='" + WaterVolume + '\'' + "}";
+    }
 }

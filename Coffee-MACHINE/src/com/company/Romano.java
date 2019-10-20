@@ -14,4 +14,9 @@ public class Romano extends Espresso {
     public void setLemonJuiceVolume(int lemonJuiceVolume) {
         LemonJuiceVolume = lemonJuiceVolume;
     }
+
+    @Override
+    public String toString(){
+        return "\nRomano{" + "sugar='" + isSugar() + '\'' + ", watertemperature='" + getWaterTemperature() + '\'' + ", coffeeamount='" + getCoffeeAmount() + '\'' + ", watervolume='" + getWaterVolume() + '\'' + ", lemonjuicevolume='" + LemonJuiceVolume + '\'' + "}";
+    }
 }

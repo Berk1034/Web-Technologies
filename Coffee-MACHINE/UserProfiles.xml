@@ -7,15 +7,90 @@
      <int>1034</int>
     </void>
     <void property="coffeeSettings">
-     <object class="java.util.ArrayList"/>
+     <object class="java.util.ArrayList">
+      <void method="add">
+       <object class="com.company.Americano">
+        <void property="additionalWaterVolume">
+         <int>35</int>
+        </void>
+        <void property="coffeeAmount">
+         <int>35</int>
+        </void>
+        <void property="sugar">
+         <boolean>true</boolean>
+        </void>
+        <void property="waterTemperature">
+         <int>89</int>
+        </void>
+        <void property="waterVolume">
+         <int>11</int>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="com.company.Cappuccino"/>
+      </void>
+      <void method="add">
+       <object class="com.company.Espresso"/>
+      </void>
+      <void method="add">
+       <object class="com.company.FlatWhite"/>
+      </void>
+      <void method="add">
+       <object class="com.company.Latte"/>
+      </void>
+      <void method="add">
+       <object class="com.company.Romano"/>
+      </void>
+     </object>
     </void>
     <void property="creationDate">
      <object class="java.util.Date">
-      <long>1571580519209</long>
+      <long>1571591197793</long>
      </object>
     </void>
     <void property="name">
      <string>Berk</string>
+    </void>
+    <void property="surname">
+     <string>Oops</string>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="com.company.UserProfile">
+    <void property="age">
+     <int>18</int>
+    </void>
+    <void property="coffeeSettings">
+     <object class="java.util.ArrayList">
+      <void method="add">
+       <object class="com.company.Americano"/>
+      </void>
+      <void method="add">
+       <object class="com.company.Cappuccino"/>
+      </void>
+      <void method="add">
+       <object class="com.company.Espresso"/>
+      </void>
+      <void method="add">
+       <object class="com.company.FlatWhite"/>
+      </void>
+      <void method="add">
+       <object class="com.company.Latte"/>
+      </void>
+      <void method="add">
+       <object class="com.company.Romano"/>
+      </void>
+     </object>
+    </void>
+    <void property="creationDate">
+     <object class="java.util.Date">
+      <long>1571591265289</long>
+     </object>
+    </void>
+    <void property="name">
+     <string>Berk2</string>
     </void>
     <void property="surname">
      <string>Oops</string>

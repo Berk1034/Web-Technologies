@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="765a7d3e-625a-4eb5-9e87-f19f3297e48c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/Coffee-MACHINE/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Coffee-MACHINE/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Coffee-MACHINE/UserProfiles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Coffee-MACHINE/UserProfiles.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Coffee-MACHINE/src/com/company/Americano.java" beforeDir="false" afterPath="$PROJECT_DIR$/Coffee-MACHINE/src/com/company/Americano.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Coffee-MACHINE/src/com/company/Cappuccino.java" beforeDir="false" afterPath="$PROJECT_DIR$/Coffee-MACHINE/src/com/company/Cappuccino.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Coffee-MACHINE/src/com/company/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/Coffee-MACHINE/src/com/company/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Coffee-MACHINE/src/com/company/Espresso.java" beforeDir="false" afterPath="$PROJECT_DIR$/Coffee-MACHINE/src/com/company/Espresso.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Coffee-MACHINE/src/com/company/FlatWhite.java" beforeDir="false" afterPath="$PROJECT_DIR$/Coffee-MACHINE/src/com/company/FlatWhite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Coffee-MACHINE/src/com/company/Latte.java" beforeDir="false" afterPath="$PROJECT_DIR$/Coffee-MACHINE/src/com/company/Latte.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Coffee-MACHINE/src/com/company/Romano.java" beforeDir="false" afterPath="$PROJECT_DIR$/Coffee-MACHINE/src/com/company/Romano.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Coffee-MACHINE/src/com/company/UserProfile.java" beforeDir="false" afterPath="$PROJECT_DIR$/Coffee-MACHINE/src/com/company/UserProfile.java" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1STqF5KW2R9fEjXPivZfurrsZuE" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="765a7d3e-625a-4eb5-9e87-f19f3297e48c" name="Default Changelist" comment="" />
+      <created>1571597827868</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1571597827868</updated>
+      <workItem from="1571597831921" duration="67000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

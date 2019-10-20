@@ -24,4 +24,9 @@ public class Cappuccino extends Espresso{
     public void setMilkTemperature(int milkTemperature) {
         MilkTemperature = milkTemperature;
     }
+
+    @Override
+    public String toString(){
+        return "\nCappuccino{" + "sugar='" + isSugar() + '\'' + ", watertemperature='" + getWaterTemperature() + '\'' + ", coffeeamount='" + getCoffeeAmount() + '\'' + ", watervolume='" + getWaterVolume() + '\'' + ", milktemperature='" + MilkTemperature + '\'' + ", milkvolume='" + MilkVolume + '\'' + "}";
+    }
 }

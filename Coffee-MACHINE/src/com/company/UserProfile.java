@@ -3,6 +3,7 @@ package com.company;
 import java.io.*;
 import java.util.ArrayList;
 import java.util.Date;
+import java.util.concurrent.atomic.AtomicMarkableReference;
 
 public class UserProfile implements IFileWriter {
     private String Name;
@@ -19,6 +20,12 @@ public class UserProfile implements IFileWriter {
         Age = age;
         CreationDate = creationDate;
         CoffeeSettings = new ArrayList<Espresso>();
+        CoffeeSettings.add(new Americano());
+        CoffeeSettings.add(new Cappuccino());
+        CoffeeSettings.add(new Espresso());
+        CoffeeSettings.add(new FlatWhite());
+        CoffeeSettings.add(new Latte());
+        CoffeeSettings.add(new Romano());
     }
 
     public String getName() {

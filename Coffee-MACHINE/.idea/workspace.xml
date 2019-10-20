@@ -2,11 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="528c0d9d-61ab-48e8-b350-48bcd3b4adc2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserProfiles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/UserProfiles.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Americano.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Americano.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Cappuccino.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Cappuccino.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/ListOfUserProfiles.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/ListOfUserProfiles.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Espresso.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Espresso.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/FlatWhite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/FlatWhite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Latte.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Latte.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Romano.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Romano.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/UserProfile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/UserProfile.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -82,6 +87,8 @@
       <workItem from="1571487881563" duration="120000" />
       <workItem from="1571495380739" duration="9608000" />
       <workItem from="1571575097652" duration="4875000" />
+      <workItem from="1571584353496" duration="6950000" />
+      <workItem from="1571597983017" duration="759000" />
     </task>
     <servers />
   </component>
@@ -93,7 +100,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

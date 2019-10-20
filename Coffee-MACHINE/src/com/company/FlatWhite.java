@@ -14,4 +14,8 @@ public class FlatWhite extends Espresso{
     public void setCoconutMilkVolume(int coconutMilkVolume) {
         CoconutMilkVolume = coconutMilkVolume;
     }
+    @Override
+    public String toString(){
+        return "\nFlatWhite{" + "sugar='" + isSugar() + '\'' + ", watertemperature='" + getWaterTemperature() + '\'' + ", coffeeamount='" + getCoffeeAmount() + '\'' + ", watervolume='" + getWaterVolume() + '\'' + ", coconutmilkvolume='" + CoconutMilkVolume + '\'' + "}";
+    }
 }

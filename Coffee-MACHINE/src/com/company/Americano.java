@@ -14,4 +14,9 @@ public class Americano extends Espresso{
     public void setAdditionalWaterVolume(int additionalWaterVolume) {
         AdditionalWaterVolume = additionalWaterVolume;
     }
+
+    @Override
+    public String toString(){
+        return "\nAmericano{" + "sugar='" + isSugar() + '\'' + ", watertemperature='" + getWaterTemperature() + '\'' + ", coffeeamount='" + getCoffeeAmount() + '\'' + ", watervolume='" + getWaterVolume() + '\'' + ", additionalwatervolume='" + AdditionalWaterVolume + '\'' + "}";
+    }
 }
