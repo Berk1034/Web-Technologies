@@ -1,6 +1,4 @@
-package com.company;
-
-import java.io.Serializable;
+package com.company.beans;
 
 public class Espresso{
     private boolean Sugar;
@@ -45,10 +43,6 @@ public class Espresso{
 
     public void setSugar(boolean sugar) {
         Sugar = sugar;
-    }
-
-    public void SetCoffeeSettings(Espresso CoffeeType){
-
     }
 
     @Override

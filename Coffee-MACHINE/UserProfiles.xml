@@ -2,51 +2,13 @@
 <java version="1.8.0_191" class="java.beans.XMLDecoder">
  <object class="java.util.ArrayList">
   <void method="add">
-   <object class="com.company.UserProfile">
+   <object class="com.company.beans.UserProfile">
     <void property="age">
      <int>1034</int>
     </void>
-    <void property="coffeeSettings">
-     <object class="java.util.ArrayList">
-      <void method="add">
-       <object class="com.company.Americano">
-        <void property="additionalWaterVolume">
-         <int>35</int>
-        </void>
-        <void property="coffeeAmount">
-         <int>35</int>
-        </void>
-        <void property="sugar">
-         <boolean>true</boolean>
-        </void>
-        <void property="waterTemperature">
-         <int>89</int>
-        </void>
-        <void property="waterVolume">
-         <int>11</int>
-        </void>
-       </object>
-      </void>
-      <void method="add">
-       <object class="com.company.Cappuccino"/>
-      </void>
-      <void method="add">
-       <object class="com.company.Espresso"/>
-      </void>
-      <void method="add">
-       <object class="com.company.FlatWhite"/>
-      </void>
-      <void method="add">
-       <object class="com.company.Latte"/>
-      </void>
-      <void method="add">
-       <object class="com.company.Romano"/>
-      </void>
-     </object>
-    </void>
     <void property="creationDate">
      <object class="java.util.Date">
-      <long>1571591197793</long>
+      <long>1574240745049</long>
      </object>
     </void>
     <void property="name">
@@ -58,42 +20,20 @@
    </object>
   </void>
   <void method="add">
-   <object class="com.company.UserProfile">
+   <object class="com.company.beans.UserProfile">
     <void property="age">
-     <int>18</int>
-    </void>
-    <void property="coffeeSettings">
-     <object class="java.util.ArrayList">
-      <void method="add">
-       <object class="com.company.Americano"/>
-      </void>
-      <void method="add">
-       <object class="com.company.Cappuccino"/>
-      </void>
-      <void method="add">
-       <object class="com.company.Espresso"/>
-      </void>
-      <void method="add">
-       <object class="com.company.FlatWhite"/>
-      </void>
-      <void method="add">
-       <object class="com.company.Latte"/>
-      </void>
-      <void method="add">
-       <object class="com.company.Romano"/>
-      </void>
-     </object>
+     <int>1034</int>
     </void>
     <void property="creationDate">
      <object class="java.util.Date">
-      <long>1571591265289</long>
+      <long>1574240977063</long>
      </object>
     </void>
     <void property="name">
-     <string>Berk2</string>
+     <string>Constantin</string>
     </void>
     <void property="surname">
-     <string>Oops</string>
+     <string>Doesn&apos;t matter</string>
     </void>
    </object>
   </void>

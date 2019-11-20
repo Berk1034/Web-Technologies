@@ -1,18 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="765a7d3e-625a-4eb5-9e87-f19f3297e48c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Coffee-MACHINE/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Coffee-MACHINE/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coffee-MACHINE/UserProfiles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Coffee-MACHINE/UserProfiles.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coffee-MACHINE/src/com/company/Americano.java" beforeDir="false" afterPath="$PROJECT_DIR$/Coffee-MACHINE/src/com/company/Americano.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coffee-MACHINE/src/com/company/Cappuccino.java" beforeDir="false" afterPath="$PROJECT_DIR$/Coffee-MACHINE/src/com/company/Cappuccino.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coffee-MACHINE/src/com/company/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/Coffee-MACHINE/src/com/company/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coffee-MACHINE/src/com/company/Espresso.java" beforeDir="false" afterPath="$PROJECT_DIR$/Coffee-MACHINE/src/com/company/Espresso.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coffee-MACHINE/src/com/company/FlatWhite.java" beforeDir="false" afterPath="$PROJECT_DIR$/Coffee-MACHINE/src/com/company/FlatWhite.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coffee-MACHINE/src/com/company/Latte.java" beforeDir="false" afterPath="$PROJECT_DIR$/Coffee-MACHINE/src/com/company/Latte.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coffee-MACHINE/src/com/company/Romano.java" beforeDir="false" afterPath="$PROJECT_DIR$/Coffee-MACHINE/src/com/company/Romano.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Coffee-MACHINE/src/com/company/UserProfile.java" beforeDir="false" afterPath="$PROJECT_DIR$/Coffee-MACHINE/src/com/company/UserProfile.java" afterDir="false" />
-    </list>
+    <list default="true" id="765a7d3e-625a-4eb5-9e87-f19f3297e48c" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +39,7 @@
       <option name="presentableId" value="Default" />
       <updated>1571597827868</updated>
       <workItem from="1571597831921" duration="67000" />
+      <workItem from="1571649962813" duration="7000" />
     </task>
     <servers />
   </component>
@@ -61,7 +51,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

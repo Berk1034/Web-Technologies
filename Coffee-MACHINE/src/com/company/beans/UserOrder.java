@@ -1,4 +1,6 @@
-package com.company;
+package com.company.beans;
+
+import com.company.beans.Espresso;
 
 import java.util.Date;
 

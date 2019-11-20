@@ -1,4 +1,6 @@
-package com.company;
+package com.company.beans;
+
+import com.company.beans.Espresso;
 
 public class Romano extends Espresso {
     private int LemonJuiceVolume;

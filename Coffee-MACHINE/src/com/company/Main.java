@@ -1,5 +1,7 @@
 package com.company;
 
+import com.company.controller.Controller;
+
 import java.io.IOException;
 
 public class Main {

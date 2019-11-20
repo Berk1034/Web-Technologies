@@ -1,6 +1,8 @@
-package com.company;
+package com.company.beans;
 
-public class FlatWhite extends Espresso{
+import com.company.beans.Espresso;
+
+public class FlatWhite extends Espresso {
     private int CoconutMilkVolume;
 
     public FlatWhite(){
@@ -14,6 +16,7 @@ public class FlatWhite extends Espresso{
     public void setCoconutMilkVolume(int coconutMilkVolume) {
         CoconutMilkVolume = coconutMilkVolume;
     }
+
     @Override
     public String toString(){
         return "\nFlatWhite{" + "sugar='" + isSugar() + '\'' + ", watertemperature='" + getWaterTemperature() + '\'' + ", coffeeamount='" + getCoffeeAmount() + '\'' + ", watervolume='" + getWaterVolume() + '\'' + ", coconutmilkvolume='" + CoconutMilkVolume + '\'' + "}";

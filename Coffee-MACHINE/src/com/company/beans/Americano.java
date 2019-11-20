@@ -1,6 +1,6 @@
-package com.company;
+package com.company.beans;
 
-public class Americano extends Espresso{
+public class Americano extends Espresso {
     private int AdditionalWaterVolume;
 
     public Americano(){

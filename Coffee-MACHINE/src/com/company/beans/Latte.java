@@ -1,6 +1,8 @@
-package com.company;
+package com.company.beans;
 
-public class Latte extends Cappuccino{
+import com.company.beans.Cappuccino;
+
+public class Latte extends Cappuccino {
     private int WhippedCreamVolume;
 
     public Latte(){

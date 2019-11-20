@@ -2,16 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="528c0d9d-61ab-48e8-b350-48bcd3b4adc2" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserProfiles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/UserProfiles.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Americano.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Americano.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Cappuccino.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Cappuccino.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Espresso.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Espresso.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/FlatWhite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/FlatWhite.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Latte.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Latte.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Romano.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Romano.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/UserProfile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/UserProfile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Americano.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/beans/Americano.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Cappuccino.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/beans/Cappuccino.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/CoffeeMachine.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/controller/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Espresso.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/beans/Espresso.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/FlatWhite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/beans/FlatWhite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/IFileWriter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Latte.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/beans/Latte.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/ListOfUserOrders.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/ListOfUserProfiles.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Romano.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/beans/Romano.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/UserOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/beans/UserOrder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/UserProfile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/beans/UserProfile.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,8 +29,11 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="package-info" />
+        <option value="FxmlFile" />
       </list>
     </option>
   </component>
@@ -36,6 +46,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
   </component>
   <component name="RunDashboard">
@@ -89,6 +100,16 @@
       <workItem from="1571575097652" duration="4875000" />
       <workItem from="1571584353496" duration="6950000" />
       <workItem from="1571597983017" duration="759000" />
+      <workItem from="1571649994161" duration="216000" />
+      <workItem from="1571655566912" duration="599000" />
+      <workItem from="1571751704515" duration="354000" />
+      <workItem from="1571898963633" duration="6893000" />
+      <workItem from="1571905968286" duration="4231000" />
+      <workItem from="1573820656760" duration="2205000" />
+      <workItem from="1574191483475" duration="6622000" />
+      <workItem from="1574234040328" duration="2907000" />
+      <workItem from="1574237861223" duration="1619000" />
+      <workItem from="1574239531734" duration="1475000" />
     </task>
     <servers />
   </component>

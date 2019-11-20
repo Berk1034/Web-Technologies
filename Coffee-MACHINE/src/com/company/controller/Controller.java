@@ -1,20 +1,62 @@
-package com.company;
+package com.company.controller;
 
-import java.io.IOException;
-import java.util.ArrayList;
-import java.util.Date;
+import com.company.*;
+import com.company.view.ViewFactory;
+
 import java.util.Scanner;
 
 public class Controller {
+//    private final CommandHelper helper = new CommandHelper();
+//    private final char paramDelimeter = ' ';
+/*
     private ListOfUserProfiles UserProfiles;
     private ListOfUserOrders UserOrders;
     private String UserProfileFile = "UserProfiles.xml";
-
+*/
     public Controller(){
-        UserProfiles = new ListOfUserProfiles();
-        UserOrders = new ListOfUserOrders();
+//        UserProfiles = new ListOfUserProfiles();
+//        UserOrders = new ListOfUserOrders();
     }
-    public void execute() throws IOException {
+
+    public void execute(){
+        Scanner CommandScanner = new Scanner(System.in);
+        CommandHelper helper = CommandHelper.getInstance();
+        boolean ShowCommands = true;
+        do{
+            //PrintListOfCommands();
+            ViewFactory.getInstance().getConsoleView().showAvailableCommands();
+            System.out.println("Enter command:");
+            String CommandToExecute = CommandScanner.nextLine();
+            ICommand command = helper.getCommand(CommandToExecute);
+            ShowCommands = command.execute(CommandToExecute);
+        }while(ShowCommands);
+    }
+/*
+    public void PrintListOfCommands() {
+        System.out.println("Available Commands in COFFEE-MACHINE:");
+        CommandName[] commandNames = CommandName.values();
+        for(CommandName commandName:commandNames){
+            if(commandName!=CommandName.NO_SUCH_COMMAND)
+                System.out.println(commandName);
+        }
+    }
+*/
+/*
+    public boolean execute(String request){
+        String commandName;
+        ICommand executionCommand;
+
+        commandName = request.substring(0,request.indexOf(paramDelimeter));
+        executionCommand = helper.getCommand(commandName);
+
+        boolean response;
+        response = executionCommand.execute(request);
+
+        return response;
+    }
+*/
+/*
+    public void executeOLD() throws IOException {
         boolean ShowCommands = true;
         boolean NoReturn;
         do {
@@ -219,18 +261,18 @@ public class Controller {
                                         }
                                     }
                                     getUserProfiles().getLoggedinUserProfile().setCoffeeSettings(NewSettings);
-                                    /*
-                                    ArrayList<Espresso> NewSettings = new ArrayList<Espresso>();
-                                    Americano am = new Americano();
-                                    am.setSugar(true);
-                                    NewSettings.add(am);
-                                    NewSettings.add(new Cappuccino());
-                                    NewSettings.add(new Espresso());
-                                    NewSettings.add(new FlatWhite());
-                                    NewSettings.add(new Latte());
-                                    NewSettings.add(new Romano());
-                                    getUserProfiles().getLoggedinUserProfile().setCoffeeSettings(NewSettings);
-                                    */
+
+                                    //ArrayList<Espresso> NewSettings = new ArrayList<Espresso>();
+                                    //Americano am = new Americano();
+                                    //am.setSugar(true);
+                                    //NewSettings.add(am);
+                                    //NewSettings.add(new Cappuccino());
+                                    //NewSettings.add(new Espresso());
+                                    //NewSettings.add(new FlatWhite());
+                                    //NewSettings.add(new Latte());
+                                    //NewSettings.add(new Romano());
+                                    //getUserProfiles().getLoggedinUserProfile().setCoffeeSettings(NewSettings);
+
                                 }
                                 else{
                                     System.out.println("Choose UserProfile first!");
@@ -322,4 +364,6 @@ public class Controller {
     public void setUserProfiles(ListOfUserProfiles userProfiles) {
         UserProfiles = userProfiles;
     }
+
+*/
 }
