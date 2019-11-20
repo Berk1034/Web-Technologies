@@ -32,8 +32,33 @@ public class UserProfileServiceImpl implements UserProfileService {
     }
 
     @Override
+    public void SortByName() {
+        userProfileDAO.SortByName();
+    }
+
+    @Override
+    public void SortByAge() {
+        userProfileDAO.SortByAge();
+    }
+
+    @Override
+    public void SortByCreationDate() {
+        userProfileDAO.SortByCreationDate();
+    }
+
+    @Override
     public UserProfile GetLoggedInUserProfile() {
         return userProfileDAO.GetLoggedInUserProfile();
+    }
+
+    @Override
+    public UserProfile SearchByName(String name) {
+        return userProfileDAO.SearchByName(name);
+    }
+
+    @Override
+    public UserProfile SearchBySurname(String surname) {
+        return userProfileDAO.SearchBySurname(surname);
     }
 
     @Override

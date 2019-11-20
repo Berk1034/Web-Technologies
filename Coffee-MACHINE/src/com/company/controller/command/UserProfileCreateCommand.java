@@ -4,8 +4,6 @@ import com.company.service.ServiceFactory;
 import com.company.beans.UserProfile;
 import com.company.service.UserProfileService;
 import com.company.controller.ICommand;
-import com.company.view.View;
-import com.company.view.ViewFactory;
 
 import java.util.Date;
 import java.util.Scanner;
@@ -15,9 +13,6 @@ public class UserProfileCreateCommand implements ICommand {
     public boolean execute(String request) {
         ServiceFactory serviceFactory = ServiceFactory.getInstance();
         UserProfileService userProfileService = serviceFactory.getUserProfileService();
-        ViewFactory viewFactory = ViewFactory.getInstance();
-        View view = viewFactory.getConsoleView();
-
         try{
             Scanner scanner = new Scanner(System.in);
             System.out.println("Enter your name:");

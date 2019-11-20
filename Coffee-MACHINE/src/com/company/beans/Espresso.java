@@ -1,6 +1,9 @@
 package com.company.beans;
 
-public class Espresso{
+import java.io.Serializable;
+import java.util.Objects;
+
+public class Espresso implements Serializable {
     private boolean Sugar;
     private int WaterTemperature;
     private int WaterVolume;
@@ -43,6 +46,28 @@ public class Espresso{
 
     public void setSugar(boolean sugar) {
         Sugar = sugar;
+    }
+
+    @Override
+    public boolean equals(Object o){
+        if(o == null || o.getClass() != getClass()){
+            return false;
+        }
+        if(this == o){
+            return true;
+        }
+
+        Espresso that = (Espresso)o;
+
+        if(Sugar != that.Sugar || WaterTemperature != that.WaterTemperature || CoffeeAmount != that.CoffeeAmount || WaterVolume != that.WaterVolume){
+            return false;
+        }
+        return true;
+    }
+
+    @Override
+    public int hashCode(){
+        return Objects.hash(Sugar, WaterTemperature, CoffeeAmount, WaterVolume);
     }
 
     @Override

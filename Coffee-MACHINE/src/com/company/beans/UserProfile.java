@@ -1,13 +1,14 @@
 package com.company.beans;
 
+import java.io.Serializable;
 import java.util.Date;
+import java.util.Objects;
 
-public class UserProfile {
+public class UserProfile implements Serializable {
     private String Name;
     private String Surname;
     private int Age;
     private Date CreationDate;
-//    private ArrayList<Espresso> CoffeeSettings;
 
     public UserProfile(){}
 
@@ -16,15 +17,6 @@ public class UserProfile {
         Surname = surname;
         Age = age;
         CreationDate = creationDate;
-        /*
-        CoffeeSettings = new ArrayList<Espresso>();
-        CoffeeSettings.add(new Americano());
-        CoffeeSettings.add(new Cappuccino());
-        CoffeeSettings.add(new Espresso());
-        CoffeeSettings.add(new FlatWhite());
-        CoffeeSettings.add(new Latte());
-        CoffeeSettings.add(new Romano());
-        */
     }
 
     public String getName() {
@@ -58,14 +50,31 @@ public class UserProfile {
     public void setCreationDate(Date creationDate) {
         CreationDate = creationDate;
     }
-/*
-    public ArrayList<Espresso> getCoffeeSettings() {
-        return CoffeeSettings;
+
+    @Override
+    public boolean equals(Object o){
+        if(o == null || o.getClass() != getClass()){
+            return false;
+        }
+        if(this == o){
+            return true;
+        }
+
+        UserProfile that = (UserProfile)o;
+
+        if(!Name.equals(that.Name) || !Surname.equals(that.Surname) || Age != that.Age || !CreationDate.equals(that.CreationDate)){
+            return false;
+        }
+        return true;
     }
 
-    public void setCoffeeSettings(ArrayList<Espresso> coffeeSettings) {
-        CoffeeSettings = coffeeSettings;
+    @Override
+    public int hashCode(){
+        return Objects.hash(Name, Surname, Age, CreationDate);
     }
 
-*/
+    @Override
+    public String toString(){
+        return "Name: " + getName() + "\n" + "Surname: " + getSurname() + "\n" + "Age: " + getAge() + "\n" + "CreationDate: " + getCreationDate();
+    }
 }

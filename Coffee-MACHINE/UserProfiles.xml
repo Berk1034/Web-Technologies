@@ -37,5 +37,41 @@
     </void>
    </object>
   </void>
+  <void method="add">
+   <object class="com.company.beans.UserProfile">
+    <void property="age">
+     <int>1036</int>
+    </void>
+    <void property="creationDate">
+     <object class="java.util.Date">
+      <long>1574282418532</long>
+     </object>
+    </void>
+    <void property="name">
+     <string>A</string>
+    </void>
+    <void property="surname">
+     <string>1035</string>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="com.company.beans.UserProfile">
+    <void property="age">
+     <int>1033</int>
+    </void>
+    <void property="creationDate">
+     <object class="java.util.Date">
+      <long>1574282427724</long>
+     </object>
+    </void>
+    <void property="name">
+     <string>C</string>
+    </void>
+    <void property="surname">
+     <string>D</string>
+    </void>
+   </object>
+  </void>
  </object>
 </java>

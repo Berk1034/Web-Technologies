@@ -9,11 +9,7 @@ public class UserProfileShowCommand implements ICommand {
         if(ServiceFactory.getInstance().getUserProfileService().GetLoggedInUserProfile() != null) {
             System.out.println("---------------------------------------------------");
             System.out.println("Account #" + ServiceFactory.getInstance().getUserProfileService().ReadUserProfile().indexOf(ServiceFactory.getInstance().getUserProfileService().GetLoggedInUserProfile()));
-            System.out.println("Name: " + ServiceFactory.getInstance().getUserProfileService().GetLoggedInUserProfile().getName());
-            System.out.println("Surname: " + ServiceFactory.getInstance().getUserProfileService().GetLoggedInUserProfile().getSurname());
-            System.out.println("Age: " + ServiceFactory.getInstance().getUserProfileService().GetLoggedInUserProfile().getAge());
-            System.out.println("CreationDate: " + ServiceFactory.getInstance().getUserProfileService().GetLoggedInUserProfile().getCreationDate());
-//            System.out.println("Coffee Settings: " + ServiceFactory.getInstance().getUserProfileService().GetLoggedInUserProfile().getCoffeeSettings());
+            System.out.println(ServiceFactory.getInstance().getUserProfileService().GetLoggedInUserProfile().toString());
             System.out.println("---------------------------------------------------");
         }
         else{

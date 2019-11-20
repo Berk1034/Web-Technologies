@@ -1,12 +1,14 @@
 package com.company.beans;
 
-import com.company.beans.Cappuccino;
+import java.io.Serializable;
+import java.util.Objects;
 
-public class Latte extends Cappuccino {
+public class Latte extends Cappuccino implements Serializable {
     private int WhippedCreamVolume;
 
     public Latte(){
         WhippedCreamVolume = 100;
+        super.setCoffeeAmount(13);
     }
 
     public int getWhippedCreamVolume() {
@@ -15,6 +17,31 @@ public class Latte extends Cappuccino {
 
     public void setWhippedCreamVolume(int whippedCreamVolume) {
         WhippedCreamVolume = whippedCreamVolume;
+    }
+
+    @Override
+    public boolean equals(Object o){
+        if(o == null || o.getClass() != getClass()){
+            return false;
+        }
+        if(!super.equals(o)){
+            return false;
+        }
+        if(this == o){
+            return true;
+        }
+
+        Latte that = (Latte)o;
+
+        if(WhippedCreamVolume != that.WhippedCreamVolume){
+            return false;
+        }
+        return true;
+    }
+
+    @Override
+    public int hashCode(){
+        return Objects.hash(super.hashCode(), WhippedCreamVolume);
     }
 
     @Override

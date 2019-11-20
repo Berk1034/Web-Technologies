@@ -2,7 +2,9 @@ package com.company.dao.impl;
 
 import com.company.beans.UserProfile;
 import com.company.dao.UserProfileDAO;
-import sun.rmi.runtime.Log;
+import com.company.dao.userprofile.UserProfileAgeComparator;
+import com.company.dao.userprofile.UserProfileCreationDateComparator;
+import com.company.dao.userprofile.UserProfileNameComparator;
 
 import java.beans.XMLDecoder;
 import java.beans.XMLEncoder;
@@ -81,18 +83,47 @@ public class XMLUserProfileDAO implements UserProfileDAO {
     }
 
     @Override
+    public void SortByName() {
+        userProfileList.sort(new UserProfileNameComparator());
+    }
+
+    @Override
+    public void SortByAge() {
+        userProfileList.sort(new UserProfileAgeComparator());
+    }
+
+    @Override
+    public void SortByCreationDate() {
+        userProfileList.sort(new UserProfileCreationDateComparator());
+    }
+
+    @Override
     public UserProfile GetLoggedInUserProfile() {
         return LoggedinUserProfile;
+    }
+
+    @Override
+    public UserProfile SearchByName(String name) {
+        for(UserProfile userProfile: userProfileList){
+            if(userProfile.getName().equals(name)){
+                return userProfile;
+            }
+        }
+        return null;
+    }
+
+    @Override
+    public UserProfile SearchBySurname(String surname) {
+        for(UserProfile userProfile: userProfileList){
+            if(userProfile.getSurname().equals(surname)){
+                return userProfile;
+            }
+        }
+        return null;
     }
 
     @Override
     public List<UserProfile> ReadUserProfile() {
         return userProfileList;
     }
- /*
-    public UserProfile getLoggedinUserProfile() {
-        return LoggedinUserProfile;
-    }
-
- */
 }

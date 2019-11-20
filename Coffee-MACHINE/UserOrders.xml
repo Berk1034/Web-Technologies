@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="1.8.0_191" class="java.beans.XMLDecoder">
+ <object class="java.util.ArrayList">
+  <void method="add">
+   <object class="com.company.beans.UserOrder">
+    <void property="ID">
+     <int>1</int>
+    </void>
+    <void property="coffeeType">
+     <object class="com.company.beans.Cappuccino"/>
+    </void>
+    <void property="date">
+     <object class="java.util.Date">
+      <long>1574263422260</long>
+     </object>
+    </void>
+    <void property="userProfile">
+     <object class="com.company.beans.UserProfile">
+      <void property="age">
+       <int>1034</int>
+      </void>
+      <void property="creationDate">
+       <object class="java.util.Date">
+        <long>1574240977063</long>
+       </object>
+      </void>
+      <void property="name">
+       <string>Constantin</string>
+      </void>
+      <void property="surname">
+       <string>Doesn&apos;t matter</string>
+      </void>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="com.company.beans.UserOrder">
+    <void property="ID">
+     <int>3</int>
+    </void>
+    <void property="coffeeType">
+     <object class="com.company.beans.Espresso"/>
+    </void>
+    <void property="date">
+     <object class="java.util.Date">
+      <long>1574263531004</long>
+     </object>
+    </void>
+    <void property="userProfile">
+     <object class="com.company.beans.UserProfile">
+      <void property="age">
+       <int>1034</int>
+      </void>
+      <void property="creationDate">
+       <object class="java.util.Date">
+        <long>1574240745049</long>
+       </object>
+      </void>
+      <void property="name">
+       <string>Berk</string>
+      </void>
+      <void property="surname">
+       <string>Oops</string>
+      </void>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="com.company.beans.UserOrder">
+    <void property="ID">
+     <int>4</int>
+    </void>
+    <void property="coffeeType">
+     <object class="com.company.beans.Latte"/>
+    </void>
+    <void property="date">
+     <object class="java.util.Date">
+      <long>1574283426082</long>
+     </object>
+    </void>
+    <void property="userProfile">
+     <object class="com.company.beans.UserProfile">
+      <void property="age">
+       <int>1034</int>
+      </void>
+      <void property="creationDate">
+       <object class="java.util.Date">
+        <long>1574240977063</long>
+       </object>
+      </void>
+      <void property="name">
+       <string>Constantin</string>
+      </void>
+      <void property="surname">
+       <string>Doesn&apos;t matter</string>
+      </void>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="com.company.beans.UserOrder">
+    <void property="ID">
+     <int>5</int>
+    </void>
+    <void property="coffeeType">
+     <object class="com.company.beans.Latte"/>
+    </void>
+    <void property="date">
+     <object class="java.util.Date">
+      <long>1574283546848</long>
+     </object>
+    </void>
+    <void property="userProfile">
+     <object class="com.company.beans.UserProfile">
+      <void property="age">
+       <int>1034</int>
+      </void>
+      <void property="creationDate">
+       <object class="java.util.Date">
+        <long>1574240977063</long>
+       </object>
+      </void>
+      <void property="name">
+       <string>Constantin</string>
+      </void>
+      <void property="surname">
+       <string>Doesn&apos;t matter</string>
+      </void>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="com.company.beans.UserOrder">
+    <void property="ID">
+     <int>6</int>
+    </void>
+    <void property="coffeeType">
+     <object class="com.company.beans.Romano"/>
+    </void>
+    <void property="date">
+     <object class="java.util.Date">
+      <long>1574283894227</long>
+     </object>
+    </void>
+    <void property="userProfile">
+     <object class="com.company.beans.UserProfile" id="UserProfile0">
+      <void property="age">
+       <int>1034</int>
+      </void>
+      <void property="creationDate">
+       <object class="java.util.Date">
+        <long>1574240977063</long>
+       </object>
+      </void>
+      <void property="name">
+       <string>Constantin</string>
+      </void>
+      <void property="surname">
+       <string>Doesn&apos;t matter</string>
+      </void>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="com.company.beans.UserOrder">
+    <void property="ID">
+     <int>7</int>
+    </void>
+    <void property="coffeeType">
+     <object class="com.company.beans.Americano"/>
+    </void>
+    <void property="date">
+     <object class="java.util.Date">
+      <long>1574283898305</long>
+     </object>
+    </void>
+    <void property="userProfile">
+     <object idref="UserProfile0"/>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="com.company.beans.UserOrder">
+    <void property="ID">
+     <int>8</int>
+    </void>
+    <void property="coffeeType">
+     <object class="com.company.beans.FlatWhite"/>
+    </void>
+    <void property="date">
+     <object class="java.util.Date">
+      <long>1574283903056</long>
+     </object>
+    </void>
+    <void property="userProfile">
+     <object idref="UserProfile0"/>
+    </void>
+   </object>
+  </void>
+ </object>
+</java>
