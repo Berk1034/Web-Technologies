@@ -2,9 +2,9 @@ package com.company.dao.impl;
 
 import com.company.beans.UserProfile;
 import com.company.dao.UserProfileDAO;
-import com.company.dao.userprofile.UserProfileAgeComparator;
-import com.company.dao.userprofile.UserProfileCreationDateComparator;
-import com.company.dao.userprofile.UserProfileNameComparator;
+import com.company.dao.comparator.userprofile.UserProfileAgeComparator;
+import com.company.dao.comparator.userprofile.UserProfileCreationDateComparator;
+import com.company.dao.comparator.userprofile.UserProfileNameComparator;
 
 import java.beans.XMLDecoder;
 import java.beans.XMLEncoder;

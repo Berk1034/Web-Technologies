@@ -1,4 +1,4 @@
-package com.company.dao.userorder;
+package com.company.dao.comparator.userorder;
 
 import com.company.beans.UserOrder;
 

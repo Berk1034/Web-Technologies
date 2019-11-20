@@ -2,9 +2,9 @@ package com.company.dao.impl;
 
 import com.company.beans.UserOrder;
 import com.company.dao.UserOrderDAO;
-import com.company.dao.userorder.UserOrderCoffeeAmountComparator;
-import com.company.dao.userorder.UserOrderDateComparator;
-import com.company.dao.userorder.UserOrderIDComparator;
+import com.company.dao.comparator.userorder.UserOrderCoffeeAmountComparator;
+import com.company.dao.comparator.userorder.UserOrderDateComparator;
+import com.company.dao.comparator.userorder.UserOrderIDComparator;
 
 import java.beans.XMLDecoder;
 import java.beans.XMLEncoder;

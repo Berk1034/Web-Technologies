@@ -1,4 +1,4 @@
-package com.company.dao.userprofile;
+package com.company.dao.comparator.userprofile;
 
 import com.company.beans.UserProfile;
 
