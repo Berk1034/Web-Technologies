@@ -20,7 +20,7 @@ public class CommandHelper {
         commands.put(CommandName.SORTBYNAME_USERPROFILE_COMMAND, new UserProfileSortByNameCommand());
         commands.put(CommandName.SORTBYAGE_USERPROFILE_COMMAND, new UserProfileSortByAgeCommand());
         commands.put(CommandName.SORTBYCREATIONDATE_USERPROFILE_COMMAND, new UserProfileSortByCreationDateCommand());
-        commands.put(CommandName.СREATE_USERORDER_COMMAND, new UserOrderCreateCommand());
+        commands.put(CommandName.CREATE_USERORDER_COMMAND, new UserOrderCreateCommand());
         commands.put(CommandName.SHOW_USERORDER_COMMAND, new UserOrderShowCommand());
         commands.put(CommandName.UPDATE_USERORDER_COMMAND, new UserOrderUpdateCommand());
         commands.put(CommandName.DELETE_USERORDER_COMMAND, new UserOrderDeleteCommand());

@@ -2,14 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="528c0d9d-61ab-48e8-b350-48bcd3b4adc2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/com/company/dao/impl/XMLUserOrderDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/dao/impl/XMLUserOrderDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/dao/impl/XMLUserProfileDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/dao/impl/XMLUserProfileDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/dao/userorder/UserOrderCoffeeAmountComparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/dao/comparator/userorder/UserOrderCoffeeAmountComparator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/dao/userorder/UserOrderDateComparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/dao/comparator/userorder/UserOrderDateComparator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/dao/userorder/UserOrderIDComparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/dao/comparator/userorder/UserOrderIDComparator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/dao/userprofile/UserProfileAgeComparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/dao/comparator/userprofile/UserProfileAgeComparator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/dao/userprofile/UserProfileCreationDateComparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/dao/comparator/userprofile/UserProfileCreationDateComparator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/dao/userprofile/UserProfileNameComparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/dao/comparator/userprofile/UserProfileNameComparator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/controller/CommandHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/controller/CommandHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/controller/CommandName.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/controller/CommandName.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -105,6 +101,10 @@
       <workItem from="1574258749562" duration="5583000" />
       <workItem from="1574276342534" duration="8234000" />
       <workItem from="1574285242908" duration="117000" />
+      <workItem from="1574285485479" duration="675000" />
+      <workItem from="1574318527517" duration="629000" />
+      <workItem from="1574319337496" duration="270000" />
+      <workItem from="1574320315187" duration="2761000" />
     </task>
     <servers />
   </component>
