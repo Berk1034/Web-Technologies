@@ -5,6 +5,7 @@ import com.company.dao.UserProfileDAO;
 import com.company.dao.comparator.userprofile.UserProfileAgeComparator;
 import com.company.dao.comparator.userprofile.UserProfileCreationDateComparator;
 import com.company.dao.comparator.userprofile.UserProfileNameComparator;
+import com.company.service.XSDValidator;
 
 import java.beans.XMLDecoder;
 import java.beans.XMLEncoder;
@@ -22,10 +23,15 @@ public class XMLUserProfileDAO implements UserProfileDAO {
         userProfileList = new ArrayList<UserProfile>();
         if(new File(filepath).exists()){
             try{
-                LoadUserProfilesFromFile();
+                if(new XSDValidator().ValidateXMLByXSD(new File(filepath), new File("UserProfiles.xsd"))){
+                    LoadUserProfilesFromFile();
+                }
+                else{
+                    System.out.println("Error Loading User Profiles");
+                }
             }
             catch (Exception e){
-
+                System.out.println("Error Loading User Profiles");
             }
         }
     }

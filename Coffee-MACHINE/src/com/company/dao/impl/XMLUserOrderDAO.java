@@ -5,6 +5,7 @@ import com.company.dao.UserOrderDAO;
 import com.company.dao.comparator.userorder.UserOrderCoffeeAmountComparator;
 import com.company.dao.comparator.userorder.UserOrderDateComparator;
 import com.company.dao.comparator.userorder.UserOrderIDComparator;
+import com.company.service.XSDValidator;
 
 import java.beans.XMLDecoder;
 import java.beans.XMLEncoder;
@@ -21,10 +22,15 @@ public class XMLUserOrderDAO implements UserOrderDAO {
         userOrderList = new ArrayList<UserOrder>();
         if(new File(filepath).exists()){
             try{
-                LoadUserOrdersFromFile();
+                if(new XSDValidator().ValidateXMLByXSD(new File(filepath), new File("UserProfiles.xsd"))){
+                    LoadUserOrdersFromFile();
+                }
+                else{
+                    System.out.println("Error Loading User Orders");
+                }
             }
             catch (Exception e){
-
+                System.out.println("Error Loading User Orders");
             }
         }
     }
