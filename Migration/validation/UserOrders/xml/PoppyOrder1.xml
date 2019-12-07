@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="1.8.0_191" class="java.beans.XMLDecoder">
+ <object class="com.company.beans.UserOrder">
+  <void property="ID">
+   <int>5</int>
+  </void>
+  <void property="coffeeType">
+   <object class="com.company.beans.Romano"/>
+  </void>
+  <void property="date">
+   <object class="java.util.Date">
+    <long>1575748904600</long>
+   </object>
+  </void>
+  <void property="userProfile">
+   <object class="com.company.beans.UserProfile">
+    <void property="age">
+     <int>18</int>
+    </void>
+    <void property="creationDate">
+     <object class="java.util.Date">
+      <long>1575748904534</long>
+     </object>
+    </void>
+    <void property="name">
+     <string>Poppy</string>
+    </void>
+    <void property="surname">
+     <string>Harlow</string>
+    </void>
+   </object>
+  </void>
+ </object>
+</java>

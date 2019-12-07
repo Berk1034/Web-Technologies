@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="1.8.0_191" class="java.beans.XMLDecoder">
+ <object class="com.company.beans.UserProfile">
+  <void property="age">
+   <int>19</int>
+  </void>
+  <void property="creationDate">
+   <object class="java.util.Date">
+    <long>1575746853842</long>
+   </object>
+  </void>
+  <void property="name">
+   <string>Constantin</string>
+  </void>
+  <void property="surname">
+   <string>Hitov</string>
+  </void>
+ </object>
+</java>

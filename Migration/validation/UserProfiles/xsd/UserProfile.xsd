@@ -1,0 +1,33 @@
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="int" type="xs:int"/>
+  <xs:element name="long" type="xs:long"/>
+  <xs:element name="object">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="long" minOccurs="0"/>
+        <xs:element ref="void" maxOccurs="unbounded" minOccurs="0"/>
+      </xs:sequence>
+      <xs:attribute type="xs:string" name="class" use="optional"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="string" type="xs:string"/>
+  <xs:element name="void">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="int" minOccurs="0"/>
+        <xs:element ref="object" minOccurs="0"/>
+        <xs:element ref="string" minOccurs="0"/>
+      </xs:sequence>
+      <xs:attribute type="xs:string" name="property" use="optional"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="java">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="object"/>
+      </xs:sequence>
+      <xs:attribute type="xs:string" name="version"/>
+      <xs:attribute type="xs:string" name="class"/>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
