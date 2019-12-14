@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<UserProfiles xmlns:tns="http://www.w3.org/2001/XMLSchema-instance"
+	      xmlns="http://www.example.com/UserProfiles"
+		tns:schemaLocation="http://www.example.com/UserProfiles UserProfiles.xsd">
+  <UserProfile>
+    <Name>Berk</Name>
+    <Surname>Oops</Surname>
+    <Age>1034</Age>
+    <CreationDate>1574240745049</CreationDate>
+  </UserProfile>
+  <UserProfile>
+    <Name>Constantin</Name>
+    <Surname>Hitov</Surname>
+    <Age>20</Age>
+    <CreationDate>1574240977063</CreationDate>
+  </UserProfile>
+  <UserProfile>
+    <Name>Poppy</Name>
+    <Surname>Harlow</Surname>
+    <Age>18</Age>
+    <CreationDate>1575748904534</CreationDate>
+  </UserProfile>
+  <UserProfile>
+    <Name>Peepee</Name>
+    <Surname>Poopoo</Surname>
+    <Age>20</Age>
+    <CreationDate>1575749141902</CreationDate>
+  </UserProfile>
+  <UserProfile>
+    <Name>Gloria</Name>
+    <Surname>Boogue</Surname>
+    <Age>30</Age>
+    <CreationDate>1575748994304</CreationDate>
+  </UserProfile>
+  <UserProfile>
+    <Name>Bob</Name>
+    <Surname>Just call me BOB</Surname>
+    <Age>20</Age>
+    <CreationDate>1575749994304</CreationDate>
+  </UserProfile>
+  <UserProfile>
+    <Name>Hope</Name>
+    <Surname>Nope</Surname>
+    <Age>100</Age>
+    <CreationDate>1575750994304</CreationDate>
+  </UserProfile>
+</UserProfiles>
