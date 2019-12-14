@@ -2,6 +2,7 @@ package com.company.dao;
 
 import com.company.dao.DOM.UserProfilesDOMBuilder;
 import com.company.dao.SAX.UserProfilesSAXBuilder;
+import com.company.dao.StAX.UserProfilesStAXBuilder;
 import org.xml.sax.SAXException;
 
 public class UserProfilesBuilderFactory {
@@ -30,6 +31,7 @@ public class UserProfilesBuilderFactory {
             case SAX:
                 return new UserProfilesSAXBuilder();
             case STAX:
+                return new UserProfilesStAXBuilder();
             case DOM:
                 return new UserProfilesDOMBuilder();
             default:
