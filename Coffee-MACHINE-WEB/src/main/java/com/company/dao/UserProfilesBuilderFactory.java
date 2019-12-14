@@ -1,5 +1,7 @@
 package com.company.dao;
 
+import com.company.dao.DOM.UserProfilesDOMBuilder;
+import com.company.dao.SAX.UserProfilesSAXBuilder;
 import org.xml.sax.SAXException;
 
 public class UserProfilesBuilderFactory {
@@ -26,6 +28,7 @@ public class UserProfilesBuilderFactory {
         ParserType type = ParserType.valueOf(parserType.toUpperCase());
         switch (type){
             case SAX:
+                return new UserProfilesSAXBuilder();
             case STAX:
             case DOM:
                 return new UserProfilesDOMBuilder();

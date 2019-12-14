@@ -1,5 +1,7 @@
-package com.company.dao;
+package com.company.dao.DOM;
 
+import com.company.dao.AbstractUserProfilesBuilder;
+import com.company.dao.UserProfileTag;
 import com.company.model.UserProfile;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
