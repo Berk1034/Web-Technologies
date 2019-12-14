@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<UserProfiles xmlns:tns="http://www.w3.org/2001/XMLSchema-instance"
+	      xmlns="http://www.example.com/UserProfiles"
+		tns:schemaLocation="http://www.example.com/UserProfiles UserProfiles.xsd">
+  <UserProfile>
+    <Name>Berk</Name>
+    <Surname>Oops</Surname>
+    <Age>1034</Age>
+    <CreationDate>1574240745049</CreationDate>
+  </UserProfile>
+  <UserProfile>
+    <Name>Berk</Name>
+    <Surname>Oops</Surname>
+    <Age>1034</Age>
+    <CreationDate>1574240745049</CreationDate>
+  </UserProfile>
+  <UserProfile>
+    <Name>Constantin</Name>
+    <Surname>Hitov</Surname>
+    <Age>19</Age>
+    <CreationDate>1574240977063</CreationDate>
+  </UserProfile>
+</UserProfiles>
